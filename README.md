@@ -22,7 +22,7 @@ The advantage of my model is that, it can be expanded to any number of features 
 - pandas-*for reading the csv file and preseting the data in a readable way*
 - random-*to generate random values for initializing the parameters*
 ---
-### R^2 score on the test set: 0.6687
+### R^2 score on the test set: 0.7200
 >The RMSE of the model doesnt converge near 0 values, because of the noise in the dataset.
 >The performance of the model is decent, considering it only uses basic linear regression model with no sophisticated libraries
 
