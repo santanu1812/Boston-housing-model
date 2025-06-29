@@ -33,8 +33,14 @@ most machine learning projects today rely on black-box models.This project inten
 >The RMSE of the model doesnt converge near 0 values, because of the noise in the dataset.
 >The performance of the model is decent, considering it only uses basic linear regression model with no sophisticated libraries
 ---
-### UPDATE:
+### UPDATE 1:
 > introducing robust regression using Hubers loss, which optimizes the model by making it less-sensitive to outliers
 - Uses a search algorithm to find the optimum value of *delta* for which the R^2 metric is maximum ( or the efficiency is maximum)
 - comparative analysis with the standard linear regression model
+---
+### UPDATE 2:
+>added a linear regression model using scikit learn for comparing the result with my own model
+- Uses *LinearRegression* class from the *sklearn.linear_model* module.
+- The r2 score of this model is almost same as my previous model, and lesser than the Robust regression model
+
 
